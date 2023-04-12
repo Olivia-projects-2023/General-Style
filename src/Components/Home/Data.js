@@ -4,7 +4,7 @@ function Data() {
   return (
     <div className="home_data">
       <h1 className="home_title">
-      O L I V I A     
+      OLIVIA     
       {/* emoji ??? */}
       </h1>
       <h3 className="home_subtitle"> Designer & Developer</h3>
@@ -12,9 +12,11 @@ function Data() {
         I am a UI/UX designer and a fullstack developer.{" "}
       </p>
       <a href="#contact" className="button button--flex">
-        GET IN TOUCH
+        GET IN TOUCH  
         {/* ICON ??? */}
+        <i class="uil uil-message"></i>
       </a>
+      
     </div>
   );
 }

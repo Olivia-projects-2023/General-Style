@@ -1,5 +1,6 @@
 import Data from "./Data";
 import "./Home.css";
+import ScrollDown from "./ScrollDown";
 import Social from "./Social";
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
           <div className="home_img"></div>
           <Data />
         </div>
+        <ScrollDown/>
       </div>
     </section>
   );
